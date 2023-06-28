@@ -1,0 +1,79 @@
+
+#navBar{
+    background-color: #e0e0e0;
+}
+
+#active{
+    background-color: #783560;
+    color: aliceblue;
+}
+#active:hover{
+    background-color: #783561ad;
+    color: rgb(240, 248, 255);
+}
+.nav-item:hover{
+    background-color: #783561ad;
+    color: rgb(240, 248, 255);
+}
+#link{
+    color: black;
+    text-decoration: none;
+}
+
+#link:hover{
+    color: rgb(172, 167, 167);
+    text-decoration:underline;
+}
+#footer{
+    background-color: #e0e0e0;
+}
+#imgCarrosel{
+    width:50%;
+    height: 500px;
+}
+
+.col, .col-3, .col-5, .col-7{
+    background-color: #e6e6e6;
+}
+
+#text{
+    text-align: justify;
+    text-indent: 2em;
+}
+
+#logo{
+    width: 75px;
+    height: 75px;
+}
+#body{
+    background-color: #fafafa;
+}
+
+#login{
+    background-color: #e6e6e6;
+    color: #db1515;
+}
+
+#time{
+    border-radius: 25%;
+    box-shadow: 5px 5px 15px #000000;
+
+}
+#error{
+    color: #db1515;
+}
+
+#visibleLogin:hover{
+    background-color: #e0e0e0;
+}
+
+#visibleCadastro:hover{
+    background-color: #e0e0e0;
+}
+
+#botao:hover{
+    transform: scale(110%);
+}
+#botao:active{
+transform: scale(85%);
+}
